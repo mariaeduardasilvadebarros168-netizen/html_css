@@ -1,5 +1,54 @@
 <h1>Contação de Seguro de Veículo</h1>
 <fieldset>
 <legend>Condutor</legend>
-<label for
+<label for="nome">Nome do propietario:</label>
+<input type="text" id="nome" name="nome">
+<br>
+<br>
+<label for="cnh">CNH</label>
+<input type="text" id="cnh" name="cnh">
+<br>
+<br>
+<label for="nascimento">Data de Emissão da CNH:</label>
+<input type="date" id="nascimento" name="nascimento">
+<br>
+<br>
+<p>Estado civil</p>
+<input type="checkbox" id="Solteiro" name="colocar" value="Solteiro">
+<label for="Solteiro">Solteiro</label>
+<input type="checkbox" id="Casado" name="colocar" value="Casado">
+<label for="Casado">Casado</label>
+<input type="checkbox" id="Divorsiado" name="colocar" value="Divorsiado">
+<label for="Divorsiado">Divorsiado</label>
+<input type="checkbox" id="Viúvo" name="colocar" value="Viúvo">
+<label for="Viúvo">Viúvo</label>
+</fieldset>
+
+<fieldset>
+    <legend>Veiculo</legend>
+    <label for="placa">Placa do carro:</label>
+    <input type="text" id="placa" name="placa" placeholder="ABC-1234">
+    <br>
+    <br>
+    <label for="marca">Marca do veiculo</label>
+    <select id="opeção" name="opeção">
+        <option value="carro">fiat</option>
+         <option value="carro">mercedes</option>
+          <option value="carro">bmw</option>
+    </select>
+    <br>
+    <br>
+    <label for="ano">Ano do moledo:</label>
+    <input type="text" id="ano" name="ano">
+</fieldset>
+
+<fieldset>
+    <legend>Uso</legend>
+    <label for="usa">Usa o carro para trabalho (Uber/Taxi)?</label>
+    <br>
+    <input type="checkbox" id="Sim" name="colocar" value="Sim">
+<label for="Sim">Sim</label>
+<input type="checkbox" id="Não" name="colocar" value="Não">
+<label for="Não">Não</label>
+<br>
 </fieldset>
